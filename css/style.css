@@ -24,9 +24,10 @@ header {
 }
 
 footer {
-    background-color: rgb(36, 39, 42);
-    padding: 5px 0;
+    background-color: var(--color-text);
+    padding: 3rem 0;
     border-bottom: 1px solid white;
+    color: #ffffff;
 }
 
 section {
@@ -45,8 +46,20 @@ h2 {
 }
 
 h3 {
-    font: 1.5rem;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #8ea1e1;
+    padding-bottom: 1rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+    color: #8ea1e1;
+    padding-bottom: 0.5rem;
 }
 
 .container {
@@ -167,27 +180,42 @@ header p, button {
 }
 
 .section-4 img {
-    width: 370px;
-    margin-bottom: -10px;
+    width: 460px;
+    margin-bottom: -15px;
 }
 
 .footrow {
     display: flex;
-    padding-bottom: 20px;
-    border-bottom: 1px solid white;
+}
+
+.footcol .language {
+    padding-bottom: 0.8rem;
+}
+
+img.flag {
+    width: 20px;
+}
+
+.link-social {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.link-social i {
+    color: #ffffff;
 }
 
 .footcol {
-    padding: 150px 30px;
-    background-color: rgb(85, 175, 169);
     flex-grow: 1;
-    border: 2px dashed white;
+    font-size: 0.7rem;
 }
 
-.footcol-pink {
-    flex-grow:2;
-    background-color: rgb(225, 134, 131);
-    border: 2px dashed black;
+.footcol ul {
+    list-style: none;
+}
+
+.footcol ul li {
+    padding-bottom: 0.5rem;
 }
 
 .footrow-end {
