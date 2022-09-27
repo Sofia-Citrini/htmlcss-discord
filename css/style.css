@@ -44,6 +44,11 @@ h2 {
     padding-bottom: 1rem;
 }
 
+h3 {
+    font: 1.5rem;
+    padding-bottom: 2rem;
+}
+
 .container {
     width: 920px;
     margin: auto;
@@ -117,6 +122,11 @@ h2 {
     color: #ffffff;
 }
 
+.btn-violet {
+    background-color: #8ea1e1;
+    color: #ffffff;
+}
+
 header p, button {
     padding-bottom: 1rem;
 }
@@ -151,10 +161,14 @@ header p, button {
     text-align: end;
 }
 
-.container-green {
-    background-color: rgb(69, 137, 51);
-    padding: 200px;
-    border: 2px dashed black;
+.section-4 {
+    text-align: center;
+    padding: 0 3.5rem;
+}
+
+.section-4 img {
+    width: 370px;
+    margin-bottom: -10px;
 }
 
 .footrow {
