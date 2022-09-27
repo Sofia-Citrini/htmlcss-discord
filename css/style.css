@@ -19,7 +19,7 @@ nav {
 
 header {
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
     padding: 2rem;
 }
 
@@ -30,7 +30,7 @@ footer {
 }
 
 section {
-    padding: 30px;
+    padding: 120px 0;
 }
 
 h1 {
@@ -39,9 +39,20 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
 .container {
     width: 920px;
     margin: auto;
+}
+
+.container-small {
+    width: 720px;
+    padding: 100px;
+    text-align: center;
     color: #ffffff;
 }
 
@@ -106,12 +117,6 @@ h1 {
     color: #ffffff;
 }
 
-.container-small {
-    width: 720px;
-    padding: 100px;
-    text-align: center;
-}
-
 header p, button {
     padding-bottom: 1rem;
 }
@@ -124,18 +129,26 @@ header p, button {
 
 .row {
     display: flex;
+    align-items: center;
+}
+
+.row img {
+    width: 500px;
 }
 
 .col {
-    padding:150px;
-    background-color: rgb(245, 194, 203);
     flex-grow: 1;
-    border: 2px dashed black;
+    flex-basis: 30%;
+    color: var(--color-text);
+    padding-left:2rem;
 }
 
-.col-blue {
-    flex-basis: 60%;
-    background-color: rgb(69, 142, 247);
+.col-img {
+    flex-basis: 70%;
+}
+
+.col-sx {
+    text-align: end;
 }
 
 .container-green {
