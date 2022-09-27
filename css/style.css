@@ -88,8 +88,8 @@ h5 {
     padding: 5px;
 }
 
-.nav-logo img {
-    width: 100px;
+.logo {
+    width: 90px;
 }
 
 .nav-link {
@@ -186,6 +186,8 @@ header p, button {
 
 .footrow {
     display: flex;
+    border-bottom: 1px solid #8ea1e1;
+    padding-bottom: 1rem;
 }
 
 .footcol .language {
@@ -219,16 +221,7 @@ img.flag {
 }
 
 .footrow-end {
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: rgb(160, 252, 214);
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
-
-}
-
-.footrow-end .end {
-    border: 2px dashed black;
-    padding: 5px 5px;
-    background-color: rgb(225, 134, 131);
 }
